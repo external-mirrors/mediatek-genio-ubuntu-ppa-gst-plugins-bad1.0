@@ -9,10 +9,10 @@ Bug-Ubuntu: https://bugs.launchpad.net/ubuntu/+source/gst-plugins-bad1.0/+bug/11
  1 file changed, 1 insertion(+)
 
 diff --git a/meson.build b/meson.build
-index d79cb64..217c423 100644
+index d80093b..870c8ca 100644
 --- a/meson.build
 +++ b/meson.build
-@@ -486,6 +486,7 @@ pkgconfig_subdirs = ['gstreamer-1.0']
+@@ -500,6 +500,7 @@ pkgconfig_subdirs = ['gstreamer-1.0']
  
  pkgconfig.generate(
    libraries : [gst_dep],
