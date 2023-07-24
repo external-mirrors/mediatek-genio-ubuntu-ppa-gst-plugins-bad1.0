@@ -4,7 +4,6 @@ Skip-failing-tests.patch
 0004-fix-maybe-uninitialized-warnings-when-compiling-with.patch
 0005-avoid-including-sys-poll.h-directly.patch
 0006-ensure-valid-sentinals-for-gst_structure_get-etc.patch
-0007-opencv-resolve-missing-opencv-data-dir-in-yocto-buil.patch
 0008-Port-plugins-to-gst_video_format_info_extrapolate_st.patch
 0009-v4l2codecs-Add-support-for-multi-planar-buffers.patch
 0010-v4l2codecs-Enable-MediaTek-MM21-NV12_16L32S.patch
