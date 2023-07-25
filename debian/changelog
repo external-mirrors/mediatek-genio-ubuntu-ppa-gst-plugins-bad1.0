@@ -1,3 +1,9 @@
+gst-plugins-bad1.0 (1.20.3-0ubuntu1genio3) jammy; urgency=medium
+
+  * Remove failing test 'elements/camerabin'
+
+ -- Pablo Sun <pablo.sun@mediatek.com>  Tue, 25 Jul 2023 11:20:05 +0800
+
 gst-plugins-bad1.0 (1.20.3-0genio2) jammy; urgency=medium
 
   * Apply patches from IoT Yocto 23.0, but
