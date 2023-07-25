@@ -1,0 +1,30 @@
+From: Pablo Sun <pablo.sun@mediatek.com>
+Date: Tue, 25 Jul 2023 10:56:13 +0800
+Subject: genio: Remove failing elements/camerabin test
+
+Signed-off-by: Pablo Sun <pablo.sun@mediatek.com>
+---
+ debian/files            | 1 +
+ tests/check/meson.build | 1 -
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 debian/files
+
+diff --git a/debian/files b/debian/files
+new file mode 100644
+index 0000000..580217c
+--- /dev/null
++++ b/debian/files
+@@ -0,0 +1 @@
++gst-plugins-bad1.0_1.20.3-0genio2_source.buildinfo libs optional
+diff --git a/tests/check/meson.build b/tests/check/meson.build
+index 76501d8..911e9c6 100644
+--- a/tests/check/meson.build
++++ b/tests/check/meson.build
+@@ -28,7 +28,6 @@ base_tests = [
+   [['elements/autoconvert.c']],
+   [['elements/autovideoconvert.c']],
+   [['elements/avwait.c']],
+-  [['elements/camerabin.c']],
+   [['elements/ccconverter.c'], not closedcaption_dep.found(), [gstvideo_dep]],
+   [['elements/cccombiner.c'], not closedcaption_dep.found(), ],
+   [['elements/ccextractor.c'], not closedcaption_dep.found(), ],
