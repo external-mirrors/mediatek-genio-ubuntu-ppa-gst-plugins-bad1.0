@@ -1,15 +1,14 @@
-gst-plugins-bad1.0 (1.20.3-0ubuntu1genio3) jammy; urgency=medium
+gst-plugins-bad1.0 (1.20.3+genio23.0-0genio1) jammy; urgency=medium
 
+  * Apply patches from IoT Yocto 23.0
+  * Remove OpenCV data path patches from IoT Yocto 23.0
   * Remove failing test 'elements/camerabin'
+  * Add version suffix "+genio23.x" to make sure we always
+    supercedes Ubuntu archive security patches.
+  * Modify package dependency to patched libgstreamer-plugins-base1.0-dev
+    and libgstreamer-plugins-good1.0-dev.
 
- -- Pablo Sun <pablo.sun@mediatek.com>  Tue, 25 Jul 2023 11:20:05 +0800
-
-gst-plugins-bad1.0 (1.20.3-0genio2) jammy; urgency=medium
-
-  * Apply patches from IoT Yocto 23.0, but
-    remove OpenCV data path patches.
-
- -- Pablo Sun <pablo.sun@mediatek.com>  Fri, 21 Jul 2023 08:50:21 +0800
+ -- Pablo Sun <pablo.sun@mediatek.com>  Wed, 09 Aug 2023 17:47:47 +0800
 
 gst-plugins-bad1.0 (1.20.3-0ubuntu1) jammy; urgency=medium
 
